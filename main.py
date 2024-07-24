@@ -12,7 +12,7 @@ def main():
     print(f"{words_counted} found in the document\n")
     
     for entry in dict_list:
-        print(f"The '{entry['character']}' was found {entry['count']} times.")
+        print(f"The letter '{entry['character']}' was found {entry['count']} times.")
     print("\n--- End Report ---")
 
 def word_count(text):
